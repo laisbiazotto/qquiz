@@ -1,0 +1,59 @@
+.cor-nav{
+  background-color: black;
+}
+
+.houver:hover{
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #fff,
+  0 0 42px #fff,
+  0 0 82px black,
+  0 0 92px #fff,
+  0 0 102px black,
+  0 0 152px black,
+  -0.3px 0 #fff, 0 0.3px #fff, 0.3px 0 #fff, 0 -0.3px #fff;
+}
+
+.conhecimento{
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #fff,
+  0 0 42px #fff,
+  0 0 82px black,
+  0 0 92px #fff,
+  0 0 102px black,
+  0 0 152px black,
+  -0.3px 0 #fff, 0 0.3px #fff, 0.3px 0 #fff, 0 -0.3px #fff;
+}
+
+.home{
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 15px #fff,
+  0 0 82px black,
+  0 0 152px black,
+  -0.3px 0 #fff, 0 0.3px #fff, 0.3px 0 #fff, 0 -0.3px #fff;
+}
+
+.animais{
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #fff,
+  0 0 42px #fff,
+  0 0 82px black,
+  0 0 92px #fff,
+  0 0 102px black,
+  0 0 152px black,
+  -0.3px 0 #fff, 0 0.3px #fff, 0.3px 0 #fff, 0 -0.3px #fff;
+}
+.block{
+  cursor: not-allowed;
+  pointer-events: all; 
+}

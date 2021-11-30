@@ -1,0 +1,351 @@
+body{
+  background-color: #faf9f9;
+}
+
+/* The radiocontainer */
+.radiocontainer {
+  color: white;
+  background-image: linear-gradient(to right, #4e85fa , rgb(18, 37, 122));  
+  background-color:#1282A2;
+  display: block;
+  position: relative;
+  padding: 10px 10px 10px 50px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  word-wrap: break-word;
+}
+  
+/* Hide the browser's default radio button */
+.radiocontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+  
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 19px;
+  width: 19px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.checkedlabel {
+  background-color:#ddd;
+}
+
+/*MUDAR QND PASSAR O MOUSE*/
+.radiocontainer:hover {
+  color: white;
+  text-shadow:
+  0 0 7px #ffffff,
+  0 0 10px #ffffff,
+  0 0 21px #003566,
+  0 0 42px #003566,
+  0 0 82px #003566,
+  -0.5px 0 white , 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiocontainer input:checked ~ .checkmark {
+background-color: #1b528d ;
+}
+  
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+  
+/* Show the indicator (dot/circle) when checked */
+.radiocontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the indicator (dot/circle) */
+.radiocontainer .checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: white;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #74C69D;
+  border-radius: 0rem;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 4rem 2rem;
+  }
+}
+
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+.margem{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.margem-botao{
+  width: 100px;
+  margin-left: 200px;
+  color: #fff ;
+  background-color: #003166;
+}
+
+.margem-botao:hover{
+ background-color: #0054A3;
+}
+
+.neonText {
+  color: white;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #003566,
+  0 0 82px #003566,
+  0 0 92px #0054A3;
+}
+
+/* Additional styling NAV BAR */
+  
+body {
+  font-size: 18px;
+  font-family: "Vibur", sans-serif;
+}  
+
+h1, h2 {
+  text-align: center;
+  font-weight: 400;
+}
+  
+h1 {
+    font-size: 4.2rem;
+}
+  
+h2 {
+    font-size: 1.8rem;
+}
+
+.cor-branco{
+  color: white;
+}
+
+/*ATE AQ*/
+
+.grad {  
+  background-image: linear-gradient(to right, #14213d , rgb(0, 16, 85));
+}
+
+.bordaH4{
+  text-shadow: -0.3px 0 black, 0 0.3px black, 0.3px 0 black, 0 -0.3px black;
+}
+
+::-webkit-scrollbar{
+  width: 20px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+  background-color: black;
+  border-radius: 20px;  
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: black;
+}
+::-webkit-scrollbar-track{
+  box-shadow: inset 0px 1px 2px black;
+  border-radius: 10px;
+}
+
+.navFooterBackToTop{
+  position: relative;
+  margin-top: 750px;
+  margin-bottom: 0px;
+  bottom: 0px;
+  background-color: black;
+  color: #FFF;
+  width: 100%;
+  height: 60px;    
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+}
+
+.navFooterBackToTop:hover{
+  text-decoration: underline;
+  background-color: black;  
+}
+
+.navFooterBackToTopText{
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navFooterBackToTopText:hover{
+  text-decoration: none;
+  background-color: black;
+}
+
+.footer {
+  position: bottom;
+  margin-bottom: -750px;
+  bottom: 0;
+  background-color: black;
+  color: #FFF;
+  width: 100%;
+  height: 150px;    
+  text-align: center;
+}
+
+.t-esquerda{
+  position: relative;
+  text-align: left;
+  top: 15px;
+  margin-bottom: 30px;
+  line-height: 50px;
+  margin-left: 70px;
+}
+.esquerda{
+  text-align: justify;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 10px;
+  margin-left: 100px;
+}
+
+.sobre2{
+  margin-right: 555px;
+  margin-left: 15%;
+  margin-top: 55px;
+  font-size: 18px;
+}
+
+.ver-gabarito{
+  font-size: 25px;
+}
+
+.gabarito{
+  margin-top: 10px;
+  font-size: 20px;
+  color: red;
+}
+
+
+
+/* STYLE CHECKBOX*/
+
+/* The container */
+.checkbox-cont {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-cont input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkgab {
+  position: absolute;
+  top: 0;
+  left: 310px;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(160, 158, 158);
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-cont:hover input ~ .checkgab {
+  background-color: #0054A3;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-cont input:checked ~ .checkgab {
+  background-color: #003166;
+}
+
+/* Create the checkgab/indicator (hidden when not checked) */
+.checkgab:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkgab when checked */
+.checkbox-cont input:checked ~ .checkgab:after {
+  display: block;
+}
+
+/* Style the checkgab/indicator */
+.checkbox-cont .checkgab:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.barra-progresso {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
+
+.logo2{
+  position:  relative;
+  margin-top: -110px;
+  left: 39%;
+  height: 130px;
+}

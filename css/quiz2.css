@@ -1,0 +1,49 @@
+body{
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+.h1q2{
+  color: white;
+  font-size: 100px;
+  text-shadow: 
+  0 0 3px #fff,
+  0 0 4px #fff,
+  0 0 82px black, 
+  0 0 152px black;
+  text-align: center;  
+}
+
+.bg-amarelo {
+  background-color: #e6cb54 !important;
+}
+  
+a.bg-amarelo:hover, a.bg-amarelo:focus,
+button.bg-amarelo:hover,
+button.bg-amarelo:focus {
+  background-color: #00000093 !important;
+}
+
+/*NAV BAR IGUAL DE TUDO*/
+body {
+  font-size: 18px;
+  font-family: "Vibur", sans-serif;
+}  
+
+h1, h2 {
+  text-align: center;
+  font-weight: 400;
+}
+  
+h1 {
+    font-size: 4.2rem;
+}
+  
+h2 {
+    font-size: 1.8rem;
+}
+
+.cor-branco{
+  color: white;
+}
+
+/*ATE AQ*/

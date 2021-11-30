@@ -1,0 +1,177 @@
+body{
+    overflow-x: hidden ;
+}
+
+.bot-home {
+    color: #fff;
+    background-color: #14213D;
+    border-color: #14213D;
+}
+
+.bot-home{
+    width: 150px;
+    margin-left: 50px;
+}
+  
+.bot-home:hover {
+    color: #fff;
+    background-color: #034078;
+    border-color: #034078;
+}
+  
+.bot-home:focus, .bot-home.focus {
+    box-shadow: 0 0 0 0.2rem #034078
+}
+  
+.bot-home.disabled, .bot-home:disabled {
+    color: #fff;
+    background-color: #14213D;
+    border-color: #034078;
+}
+  
+.bot-home:not(:disabled):not(.disabled):active, .bot-home:not(:disabled):not(.disabled).active,
+.show > .bot-home.dropdown-toggle {
+    color: #fff;
+    background-color: #14213D;
+    border-color: #14213D;
+}
+  
+.bot-home:not(:disabled):not(.disabled):active:focus, .bot-home:not(:disabled):not(.disabled).active:focus,
+.show > .bot-home.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #14213D;
+}
+
+.bordaquiz1-home{
+    text-shadow: -0.3px 0 black, 0 0.3px black, 0.3px 0 black, 0 -0.3px black;
+    text-align: left;
+    margin-left: 50px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  text-shadow: -0.3px 0 black, 0 0.3px black, 0.3px 0 black, 0 -0.3px black;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 10px;   
+}
+
+.margin{
+  margin-right: 230px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+  
+/* Style the collapsible content. Note: hidden by default */
+.accordion {
+    position: relative;
+    margin-right: 100%;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 10px 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+  
+.barra{
+    margin-left: 50px;
+    height: 380px;
+    width: 1355px;
+    border: 1px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+}
+
+
+/* STYLE CHECKBOX*/
+
+/* The container */
+.checkbox-cont {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkbox-cont input {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkgab {
+    position: absolute;
+    top: 0;
+    left: 340px;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(160, 158, 158);
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checkbox-cont:hover input ~ .checkgab {
+    background-color: #0054A3;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkbox-cont input:checked ~ .checkgab {
+    background-color: #003166;
+  }
+  
+  /* Create the checkgab/indicator (hidden when not checked) */
+  .checkgab:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkgab when checked */
+  .checkbox-cont input:checked ~ .checkgab:after {
+    display: block;
+  }
+  
+  /* Style the checkgab/indicator */
+  .checkbox-cont .checkgab:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
